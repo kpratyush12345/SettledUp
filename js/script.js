@@ -87,7 +87,7 @@ onload = function () {
         for(let i = 1;i<=sz;i++){
             for(let j = 1;j<=sz;j++){
                 if(i !== j){
-                    let deb = prompt(names[i] + " to " + names[j]);
+                    let deb = prompt("Amount : " + names[i] + " to " + names[j]);
                     if(parseInt(deb) > 0){
                         edges.push({from: i, to: j, label: deb});
                     }
